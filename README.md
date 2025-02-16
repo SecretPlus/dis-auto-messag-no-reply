@@ -30,8 +30,14 @@ get discord token and save token without ''
 ## Installation
 
 1. Clone the repository:
+    ```
+    sudo apt update && sudo apt upgrade -y
+    ```
     ```bash
     git clone https://github.com/abuee422/discord-auto-messager.git
+    ```
+    ```
+    screen -S discord
     ```
     ```bash
     cd discord-auto-messager
@@ -47,8 +53,11 @@ get discord token and save token without ''
     Have a great day!
     ```
     **Note: You can get sentences from Chatgpt or Groq**
+
 3. Install Prerequisites:
     ```bash
+    python3 -m venv discord
+    source discord/bin/activate
     pip install requests
     ```
 4. Run script:
